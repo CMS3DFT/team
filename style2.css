@@ -1,3 +1,6 @@
+body{
+    background: radial-gradient( pink,white,white);
+}
 header{
     display: flex;
     gap: 30px;
@@ -47,6 +50,8 @@ button {
 .rab{
     font-size: 20px;
     justify-content: space-around;
+    display: flex;
+    gap: 90px;
 
 }
 .rab p{
