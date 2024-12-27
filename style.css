@@ -201,3 +201,10 @@ footer{
         margin-left: 40px;
     }
 }
+@media(max-width:768px){
+    .im,.master{
+        width: 150%;
+        margin-left: -100px;
+    }
+
+}
