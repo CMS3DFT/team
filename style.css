@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
 }
 .container{
     background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
@@ -59,6 +60,8 @@ input{
 .main2{
     height: 610px;
 }
+
+
 .main3{
     background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
     height: 200px;
@@ -178,7 +181,7 @@ footer{
 @media(max-width:768px){
     .main,.main2,.main3,.main4,.box{
         flex-direction: column;
-
+        justify-content: center;
     }
     .nav{
         display: none;
