@@ -59,6 +59,7 @@ input{
 }
 .main2{
     height: 610px;
+    margin-left: 100px;
 }
 
 
@@ -176,7 +177,8 @@ footer{
 .foot h6{
     color: white;
     margin-left: 20px;
-} 
+}
+
 
 @media(max-width:768px){
     .main,.main2,.main3,.main4,.box{
@@ -187,4 +189,15 @@ footer{
         display: none;
     }
 
+}
+@main(max-width:768px){
+    .main2{
+        margin-right: 40px;
+        
+    }
+}
+@media(max-width:768px){
+    .bax{
+        margin-left: 40px;
+    }
 }
