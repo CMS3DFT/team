@@ -178,24 +178,37 @@ footer{
     color: white;
     margin-left: 20px;
 }
+.icones{
+    font-size: 30px;
+    color: #626262;
+   gap:30px;
+}
+.isbro{
+    font-size: 30px;
+    color: #626262;
+}
+ 
 
+@media(min-width:768px){
+    .icones,.isbro{
+        display: none;
+
+    }
+}
 
 @media(max-width:768px){
     .main,.main2,.main3,.main4,.box{
         flex-direction: column;
         justify-content: center;
     }
+
     .nav{
         display: none;
     }
 
 }
-@main(max-width:768px){
-    .main2{
-        width: 100vh;
-        
-    }
-}
+
+
 @media(max-width:768px){
     .bax{
         margin-left: 40px;
@@ -211,3 +224,14 @@ footer{
     }
 
 }
+
+@media(max-width:768px){
+    footer{
+        max-width: 150%;
+    }
+    .box{
+        margin-left: 70px;
+    }
+   
+}
+
