@@ -192,7 +192,7 @@ footer{
 }
 @main(max-width:768px){
     .main2{
-        margin-right: 40px;
+        width: 100vh;
         
     }
 }

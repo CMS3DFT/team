@@ -66,3 +66,22 @@ button {
 
 
 }
+
+@media(max-width:768px){
+    ul{
+        display: none;
+    }
+    
+}
+@media(max-width:768px){
+    .rab{
+        flex-direction: column;
+    }
+    .ta{
+        width: 100%;
+    }
+    .mm{
+        width: 100%;
+    }
+
+}
